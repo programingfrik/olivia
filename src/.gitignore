@@ -18,3 +18,9 @@ __pycache__
 
 # Que ignore la base de datos, para que esta sea local para cada desarollador
 db.sqlite3
+
+# Ficheros de VS que tiene que ignorar:
+.vs
+*.user
+obj/
+
