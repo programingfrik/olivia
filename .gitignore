@@ -5,6 +5,8 @@ env/
 venv/
 .venv/
 ENV/
+pyvenv.cfg
+Scripts/
 
 # El directorio donde el entorno virtual guarda las librerías locales.
 Lib/
