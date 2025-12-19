@@ -33,61 +33,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="olivia_app\forms.py" />
+    <Compile Include="olivia_app\admin.py" />
+    <Compile Include="olivia_app\apps.py" />
     <Compile Include="olivia_app\models.py" />
     <Compile Include="olivia_app\tests.py" />
     <Compile Include="olivia_app\views.py" />
     <Compile Include="olivia_app\__init__.py" />
     <Compile Include="olivia_app\migrations\__init__.py" />
+    <Compile Include="olivia_app\urls.py" />
     <Compile Include="manage.py" />
     <Compile Include="olivia_site\__init__.py" />
     <Compile Include="olivia_site\settings.py" />
     <Compile Include="olivia_site\urls.py" />
     <Compile Include="olivia_site\wsgi.py" />
+    <Compile Include="olivia_site\asgi.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="olivia_app\" />
     <Folder Include="olivia_app\migrations\" />
-    <Folder Include="olivia_app\static\" />
-    <Folder Include="olivia_app\static\app\" />
-    <Folder Include="olivia_app\static\app\content\" />
-    <Folder Include="olivia_app\static\app\fonts\" />
-    <Folder Include="olivia_app\static\app\scripts\" />
-    <Folder Include="olivia_app\templates\" />
-    <Folder Include="olivia_app\templates\app\" />
     <Folder Include="olivia_site\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
-    <Content Include="olivia_app\static\app\content\bootstrap.css" />
-    <Content Include="olivia_app\static\app\content\bootstrap.min.css" />
-    <Content Include="olivia_app\static\app\content\site.css" />
-    <Content Include="olivia_app\static\app\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="olivia_app\static\app\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="olivia_app\static\app\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="olivia_app\static\app\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="olivia_app\static\app\scripts\bootstrap.js" />
-    <Content Include="olivia_app\static\app\scripts\bootstrap.min.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery-1.10.2.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery-1.10.2.min.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery-1.10.2.min.map" />
-    <Content Include="olivia_app\static\app\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery.validate.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery.validate.min.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="olivia_app\static\app\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="olivia_app\static\app\scripts\modernizr-2.6.2.js" />
-    <Content Include="olivia_app\static\app\scripts\respond.js" />
-    <Content Include="olivia_app\static\app\scripts\respond.min.js" />
-    <Content Include="olivia_app\static\app\scripts\_references.js" />
-    <Content Include="olivia_app\templates\app\about.html" />
-    <Content Include="olivia_app\templates\app\contact.html" />
-    <Content Include="olivia_app\templates\app\index.html" />
-    <Content Include="olivia_app\templates\app\layout.html" />
-    <Content Include="olivia_app\templates\app\login.html" />
-    <Content Include="olivia_app\templates\app\loginpartial.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
