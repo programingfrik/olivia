@@ -3,5 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("Hola Edmundo. Estas en el indice de olivia la agenda de contactos de la nueva generación")
+def index(request, usuario_id = None):
+    return HttpResponse("Este es el indice de contactos %s." % usuario_id)
+
+def detalle_cont(request, usuario_id = None, contacto_id = None):
+    return HttpResponse("Este es el detalle de un contacto %s. Que es un contacto de %s." % (contacto_id, usuario_id))
