@@ -1,0 +1,10 @@
+
+{% if contactos %}
+<ul>
+    {% for p in contactos %}
+    <li><a href="contacto/{{ p.id }}/">{{ p.nombres }} {{ p.apellidos }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p> No hay contactos.</p>
+{% endif %}
